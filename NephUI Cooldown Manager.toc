@@ -1,0 +1,101 @@
+## Interface: 120000, 120001
+## Title: NephUI: Cooldown Manager
+## Notes: Standalone version with IconViewers, IconCustomization, CustomIcons, CastBars, and ResourceBars
+## Author: Nephuhlim
+## Version: 2.03
+## SavedVariables: NephUIDB
+## OptionalDeps: Ace3, LibSharedMedia-3.0
+## X-TaintLess-DisableMitigations: CUF_PROFILE_ACTIVATE_PATCH_VERSION=1
+
+# Core library bootstrap
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+
+# Media & utility libraries
+Libs\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\lib.xml
+Libs\LibSharedMedia-3.0\lib.xml
+Libs\LibDeflate\LibDeflate.lua
+Libs\LibSerialize\lib.xml
+Libs\LibCustomGlow-1.0\LibCustomGlow-1.0.lua
+Libs\TaintLess\TaintLess.xml
+Libs\LibDualSpec-1.0\LibDualSpec-1.0.lua
+Libs\LibButtonGlow-1.0\LibButtonGlow-1.0.lua
+
+# Ace3 libraries
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\AceSerializer-3.0\AceSerializer-3.0.xml
+
+# Localization files
+Locales\Locale.lua
+Locales\enUS.lua
+
+# Core addon files
+Core\Main.lua
+Core\Defaults.lua
+Core\Media.lua
+Core\GUI.lua
+
+# Utility files
+Utils\PixelPerfect.lua
+Utils\Toolkit.lua
+Utils\Nudge.lua
+
+# Config files
+Config\ViewerOptions.lua
+Config\ResourceBarOptions.lua
+Config\CastBarOptions.lua
+Config\CustomIconOptions.lua
+Config\CustomBuffOptions.lua
+Config\IconCustomizationOptions.lua
+Config\ProfileOptions.lua
+Config\QOLOptions.lua
+Config.lua
+
+# Module files
+# AutoUIScale
+Modules\AutoUIScale\AutoUIScale.lua
+
+# QOL
+Modules\QOL\QOL.lua
+Modules\QOL\RaidBuffs.lua
+
+# IconViewers
+Modules\IconViewers\IconViewers.lua
+Modules\IconViewers\IconSkinning.lua
+Modules\IconViewers\ViewerLayout.lua
+Modules\IconViewers\BuffBarCooldownViewer.lua
+Modules\IconViewers\ProcGlow.lua
+Modules\IconViewers\AuraOverride.lua
+Modules\IconViewers\Keybinds.lua
+
+# CustomIcons
+Modules\CustomIcons\CustomIcons.lua
+
+# CustomBuffs
+Modules\CustomBuffs\CustomBuffs.lua
+
+# IconCustomization
+Modules\IconCustomization\IconCustomization.lua
+
+# CastBars
+Modules\CastBars\CastBars.lua
+Modules\CastBars\PlayerCastBar.lua
+Modules\CastBars\TargetCastBar.lua
+Modules\CastBars\FocusCastBar.lua
+Modules\CastBars\BossCastBar.lua
+Modules\CastBars\EmpoweredCasts.lua
+
+# ResourceBars
+Modules\ResourceBars\ResourceDetection.lua
+Modules\ResourceBars\PrimaryPowerBar.lua
+Modules\ResourceBars\SecondaryPowerBar.lua
+Modules\ResourceBars\ResourceBars.lua
